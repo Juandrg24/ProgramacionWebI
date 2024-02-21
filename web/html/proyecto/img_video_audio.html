@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes, video y audio</title>
+<link rel="icon" href="../../img/html5-icon.ico" type="imagen/x-icon">
+
+    <style>
+        img {
+            border: 2px solid brown;
+        }
+
+        #paisaje {
+            border: 2px solid violet;
+        }
+
+        .machupichu {
+            border: 2px solid yellowgreen;
+        }
+
+        #encabezado{
+            background-color: #ddd ;
+            background-image: url('../../img/fondo.jpg');
+            background-size: 100%;
+        }
+
+        #cuerpo{
+            background-image: url('../../img/tree.png');
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="encabezado">
+        <h3 style="color: aquamarine;">Imagenes</h3>
+        <p>El elemento img inserta imagenes como contenido de la pagina</p>
+    </div>
+    
+    <div id="cuerpo">
+        <img class="machupichu" src="../../img/paisaje.jpg" width="500" alt="Aqui hay una imagen de un paisaje"
+            title="Paisaje de Machipichu"><br>
+
+        <a href="https://www.w3schools.com/" target="_blank">
+            <img id="paisaje" src="../../img/w3schools.png" width="160" alt="">
+        </a>
+    </div>
+    <h3>Video</h3>
+<!--
+    
+    <video src="../../video/TearsOfSteel.mp4" width="500" controls></video>
+-->
+
+<video width="600" controls muted poster="../../img/TearsOfSteel.png">
+    <source src="../../video/TearsOfSteel.mp4" type="video/mp4">
+    <source src="../../video/TearsOfSteel.webm" type="video/webm"></sourcesrc>>
+    <p>Su navegador no procesa el elemento de <code>video</code></p>
+    
+</video>
+
+<h3>Audio</h3>
+<audio controls>
+    <source src="../../audio/horse.ogg" type="audio/ogg">
+    <source src="../../audio/horse.mp3" type="audio/mp3">
+    <p>Su navegador no procesa el elemento de <code>Audio</code></p>
+</audio>
+
+
+</body>
+
+</html>
