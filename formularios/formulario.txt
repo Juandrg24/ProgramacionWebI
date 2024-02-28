@@ -1,0 +1,52 @@
+<form>
+	<div>
+			<label for="tipoIdentificacion">Tipo identificación</label>
+			<select id="tipoIdentificacion" name="tipoIdentificacion">
+					<option value=""></option>
+					<option value="Cédula">Cédula</option>
+					<option value="NIT">NIT</option>
+					<option value="Cédula extranjería">Cédula extranjería</option>
+			</select>
+	</div>
+
+	<div>
+			<label for="identificacion">Identificación: </label>
+			<input type="text" size="12" id="identificacion" name="identificacion">
+	</div>
+
+	<div>
+			<label for="nombreCompleto">Nombre completo: </label>
+			<input type="text" size="30" id="nombreCompleto" name="nombreCompleto">
+	</div>
+
+	<div>
+			<label for="correoElectronico">Correo electrónico: </label>
+			<input type="text" size="30" id="correoElectronico" name="correoElectronico">
+	</div>
+
+	<div>
+			<label for="fechaIngreso">Fecha de ingreso: </label>
+			<input type="text" size="11" id="fechaIngreso" name="fechaIngreso">
+	</div>
+
+	<div>
+		<div>
+			<input type="checkbox" id="activo" name="activo">
+			<label for="activo">Activo: </label>
+		</div>
+	</div>
+
+	<div>
+			<label for="capacidadCredito">Capacidad de crédito: </label>
+			<input type="text" size="9" id="capacidadCredito" name="capacidadCredito">
+	</div>
+
+	<div>
+			<label for="claveUsuario">Asignar clave: </label>
+			<input type="password" size="10" id="claveUsuario" name="claveUsuario">
+	</div>
+
+	<div>
+			<input type="submit" value="Enviar" />
+	</div>
+</form>

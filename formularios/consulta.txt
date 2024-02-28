@@ -1,0 +1,8 @@
+<ul>
+	<li><b>Identificación: </b><i>1002</i></li>
+	<li><b>Nombre completo: </b><i>Catalina Álvarez Mesa</i></li>
+	<li><b>Zona: </b><i>Norte</i></li>
+	<li><b>Salario base: </b>$<i>680,000</i></li>
+	<li><b>Valor ventas: </b>$<i>5,040,000</i></li>
+	<li><b>Comisión: </b><i>3.1</i></li>
+</ul>

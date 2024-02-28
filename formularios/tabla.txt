@@ -1,0 +1,107 @@
+<table>
+	<tr>
+			<th>Nombre</th>
+			<th>Zona</th>
+			<th>Sal. Base</th>
+			<th>Vlr. Ventas</th>
+			<th>Comisión</th>
+	</tr>
+	<tr>
+			<td>Luis Felipe Aristizabal</td>
+			<td>Norte</td>
+			<td>395,000</td>
+			<td>15,000,000</td>
+			<td>3.7</td>
+	</tr>
+	<tr>
+			<td>Catalina Álvarez Mesa</td>
+			<td>Sur</td>
+			<td>680,000</td>
+			<td>5,040,000</td>
+			<td>3.1</td>
+	</tr>
+	<tr>
+			<td>Olga Lucía Gil Gómez</td>
+			<td>Centro</td>
+			<td>453,000</td>
+			<td>13,720,000</td>
+			<td>3.8</td>
+	</tr>
+	<tr>
+			<td>Uberlinda Mella Arellano</td>
+			<td>Oeste</td>
+			<td>191,000</td>
+			<td>22,680,000</td>
+			<td>3.3</td>
+	</tr>
+	<tr>
+			<td>Maritza Lagos Oliva</td>
+			<td>Este</td>
+			<td>671,000</td>
+			<td>43,120,000</td>
+			<td>2.1</td>
+	</tr>
+	<tr>
+			<td>Juan Bautista Orellana</td>
+			<td>Sur</td>
+			<td>487,000</td>
+			<td>25,760,000</td>
+			<td>5.6</td>
+	</tr>
+	<tr>
+			<td>Rigoberto Caceres Monsalve</td>
+			<td>Sur</td>
+			<td>678,000</td>
+			<td>43,680,000</td>
+			<td>4.1</td>
+	</tr>
+	<tr>
+			<td>Celia del Transito Figueroa</td>
+			<td>Norte</td>
+			<td>688,000</td>
+			<td>6,090,000</td>
+			<td>5.7</td>
+	</tr>
+	<tr>
+			<td>José Maria fierro Muñoz</td>
+			<td>Centro</td>
+			<td>428,000</td>
+			<td>17,500,000</td>
+			<td>4.1</td>
+	</tr>
+	<tr>
+			<td>Ema del Carmen Rocha Saenz</td>
+			<td>Sur</td>
+			<td>543,000</td>
+			<td>21,840,000</td>
+			<td>5.8</td>
+	</tr>
+	<tr>
+			<td>Julio Avila Friz</td>
+			<td>Oeste</td>
+			<td>695,000</td>
+			<td>20,440,000</td>
+			<td>5.1</td>
+	</tr>
+	<tr>
+			<td>Filomena del Carmen Cortéz</td>
+			<td>Centro</td>
+			<td>140,000</td>
+			<td>10,080,000</td>
+			<td>2.3</td>
+	</tr>
+	<tr>
+			<td>Graciela Salazar Hermosilla</td>
+			<td>Este</td>
+			<td>359,000</td>
+			<td>22,260,000</td>
+			<td>4.8</td>
+	</tr>
+	<tr>
+			<td>Mario Escobar Navarro</td>
+			<td>Norte</td>
+			<td>430,000</td>
+			<td>10,150,000</td>
+			<td>5.1</td>
+	</tr>
+</table>
