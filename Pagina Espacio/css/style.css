@@ -1,0 +1,86 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+
+#seccion-uno {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/tiro-vertical-mar-cielo-estrellado-via-lactea.jpg");
+    background-size: cover;
+    background-position: center;
+    /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    /*Se la imagen se ajusta al contenedor  */
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    font-size:x-large;
+    /* border: 1px solid tomato; */
+}
+
+.contenido {
+    display: flex;
+    /* border: 1px solid tomato; */
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.parrafo-principal {
+    text-align: justify;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.contenido-elementos {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 0.5rem;
+    /* border: 1px solid rgb(255, 255, 255); */
+
+}
+
+.contenedor-img {
+    display: flex;
+    width: 90%;
+    height: 50%;
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
