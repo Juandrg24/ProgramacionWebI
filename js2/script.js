@@ -220,24 +220,25 @@ const totventavende = function (codven) {
     for (let i = 0; i < ventas.length; i++) {
         if (ventas[i].codigo == codven) {
             totven += ventas[i].venta;
-            nomven=ventas[i].vendedor;
-            cod=ventas[i].codigo;
+            nomven = ventas[i].vendedor;
+            cod = ventas[i].codigo;
         }
     }
-    return {"codigo":cod,"vendedor":nomven,"totven":totven};
+    return { "codigo": cod, "vendedor": nomven, "totven": totven };
 }
 
-const codven = prompt("Introduzca el codigo del vendedor a calcular: ");
+//const codven = prompt("Introduzca el codigo del vendedor a calcular: ");
 
-console.log(totventavende(codven));
+//console.log(totventavende(codven));
 
 
 //Set 
-// let set = new set();
+let set = new Set();
 
-// set.add(34);
-// set.add(ventas);
-// set.has(34);//si existe ese dato
+set.add(34);
+set.add(ventas);
+
+set.has(34);//si existe ese dato
 
 //console.log(set);//El set No acepta valores duplicados 
 
@@ -254,4 +255,38 @@ let inventario = [
     { 'categoria': 'Audio', 'producto': 'Parlante Bose SoundLink', 'precio': 859000, 'existencia': 13 },
     { 'categoria': 'Almacenamiento', 'producto': 'Memoria USB 3.2 64Gb', 'precio': 35000, 'existencia': 29 },
     { 'categoria': 'Audio', 'producto': 'Parlante Sony XB100', 'precio': 220000, 'existencia': 18 },
+    { 'categoria': 'algo', 'producto': 'Televisor Sony 32 pulgadas LED', 'precio': 1188000, 'existencia': 10 },
+    { 'categoria': 'algo', 'producto': 'Monitor Samsung 24 pulgadas', 'precio': 790000, 'existencia': 17 },
+    { 'categoria': 'algo', 'producto': 'JBL - Flip 6', 'precio': 599000, 'existencia': 25 },
 ];
+
+
+// set [{'categoria':almacenamiento},{'categoria':Audio},{'categoria':video}]
+const valinventariocate = function () {
+
+    let set = new Set();
+    let setsize = new Set();
+
+    for (let i = 0; i < inventario.length; i++) {
+        setsize.add(inventario[i].categoria);
+    }
+
+    for (let cate of setsize) {
+
+        let totval = 0;
+        let nomCatego;
+
+        for (let i = 0; i < inventario.length; i++) {
+            let ctgo = inventario[i].categoria;
+
+            if (cate === ctgo) {
+                nomCatego = inventario[i].categoria;
+                totval += inventario[i].precio * inventario[i].existencia;
+            }
+        }
+        set.add({ "categoria": nomCatego, "totInventario": totval });
+
+    }
+    console.log(set);
+}
+valinventariocate();
