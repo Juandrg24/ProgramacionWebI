@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Introduccion Servlets</title>
+</head>
+<body>
+	<h1>Bienbenido a Servlets</h1>
+	<form action="">
+		<div>
+			<label>Producto: </label>
+			<input type="text" name="producto">
+		</div>
+		<div>
+			<label>Precio: </label>
+			<input type="number" name="precio">
+		</div>
+		<div>
+			
+			<input type="sumit"  value="Enviar">
+		</div>
+		
+		
+		
+		
+	</form>
+	
+</body>
+</html>
